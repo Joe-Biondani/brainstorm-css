@@ -5,9 +5,9 @@
   --secondary-colour: #222;
 }
 
-html {
+/* html {
   scroll-behaviour: smooth;
-}
+} */
 
 body {
   font-family: Lato, sans-serif;
