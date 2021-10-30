@@ -1,1 +1,89 @@
+nav {
+  width: 100%;
+  min-height: 10vh;
+  z-index: 2;
+  align-content: center;
+  background: var(--secondary-colour);
+  position: sticky;
+  margin: auto;
+  top: 0px;
+  display: flex;
+}
 
+nav .links {
+  text-align: center;
+  align-content: center;
+  list-style: none;
+  width: 25vw;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .links li {
+  text-decoration: none;
+  margin: auto;
+  flex: 1;
+  color: white;
+  white-space: nowrap;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+nav .buttons {
+  text-align: center;
+  align-content: center;
+  list-style: none;
+  width: 25vw;
+  right: 0;
+  height: 10vh;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .buttons li {
+  text-decoration: none;
+  flex: 1;
+  color: white;
+  line-height: 10vh;
+  white-space: nowrap;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+nav .buttons li a ion-icon {
+  line-height: 10vh;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2vw;
+}
+
+nav img {
+  height: 10vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1vw;
+  align-self: center;
+  padding-right: 20px;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:active {
+  text-decoration: none;
+  color: white;
+}
